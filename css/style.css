@@ -761,6 +761,14 @@ input[type=submit]:hover {
 
 
 }
+@media screen and (max-width: 414px){
+	.foot2{
+	      margin: 4%;
+	}
+	.foot3{
+	      margin: 4%;
+	}
+}
 @media screen and (max-width: 375px){
 	
 		.burger{
