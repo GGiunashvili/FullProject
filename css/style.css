@@ -389,6 +389,7 @@ margin-left: 50px;
 	margin-right: 55px;
 }
 .cull{
+	margin-bottom: 30px;
 	display: flex;
 	justify-content: space-between;
 	margin-top: 50px;
@@ -424,7 +425,7 @@ margin-left: 50px;
 }
 
 .footer{
-	margin-top: 100px;	
+	margin-top: 40px;	
 	background-color: #F8F8F8;
 	display: flex;
 	justify-content: center;
