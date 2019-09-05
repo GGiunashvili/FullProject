@@ -117,12 +117,12 @@ li:hover{
          
 }
 .P1:hover{
-	transform: scale(1.14);
+/* 	transform: scale(1.14); */       გვერდით ისქროლება
 	color: red;
 	transition: all 0.5s ease-in-out;
 }
 .P2:hover{
-	transform: scale(1.14);
+/* 	transform: scale(1.14); */   გვერდით ისქროლება 
 	color: red;
 	transition: all 0.5s ease-in-out;
 }
