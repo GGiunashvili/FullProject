@@ -974,12 +974,20 @@ input[type=submit]:hover {
     }
 }
 @media screen and (max-width: 375px) {
+    .manu-wrap {
+        margin-right: 10%;
+    }
+    
+    .logo {
+        margin-left: 10%;
+    }
+    
     input[type=email] {
         margin-left: 0;
     }
     
     .menu-wrap {
-        right: 18%;
+        right: 10%;
     }
     
     .burger {
@@ -1041,11 +1049,15 @@ input[type=submit]:hover {
     }
 }
 @media screen and (max-width: 414px) {
+    .logo {
+        margin-right: 60%;
+    }
+    
     input[type=email] {
         margin-left: 0;
     }
     
     .menu-wrap {
-        right: 20%;
+        margin-right: 10%;
     }
 }
