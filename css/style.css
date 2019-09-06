@@ -314,7 +314,12 @@ section:before {
     transform: scale(1.14);
 }
 
-.ma .ii {
+.ma .ii:hover {
+    transform: scale(1.14);
+    transition: all 0.2s ease-in-out;
+}
+
+.ma .la:hover {
     transform: scale(1.14);
     transition: all 0.2s ease-in-out;
 }
