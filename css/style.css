@@ -343,7 +343,7 @@ li:hover {
 
 .P1 {
     color: white;
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 50px;
     text-align: center;
     font-family: 'Kaushan Script', cursive;
@@ -814,6 +814,9 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 768px) {
+    .burger {
+        display: none;
+    }
     header {
         /*display: flex;
 */
@@ -909,9 +912,6 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 20px;
     }
-    .burger {
-        display: block;
-    }
     .icon-set {
         display: none;
     }
@@ -983,6 +983,9 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 375px) {
+    .menu-wrap {
+        right: 18%;
+    }
     .burger {
         display: none;
     }
@@ -1026,5 +1029,11 @@ input[type=submit]:hover {
     }
     .foot2 {
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .menu-wrap {
+        right: 20%;
     }
 }
