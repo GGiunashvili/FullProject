@@ -761,6 +761,10 @@ input[type=submit]:hover {
     margin-bottom: 15px;
 }
 @media screen and (max-width: 768px) {
+    input[type=email] {
+        margin-left: 0;
+    }
+    
     .burger {
         display: none;
     }
@@ -970,6 +974,10 @@ input[type=submit]:hover {
     }
 }
 @media screen and (max-width: 375px) {
+    input[type=email] {
+        margin-left: 0;
+    }
+    
     .menu-wrap {
         right: 18%;
     }
@@ -1033,6 +1041,10 @@ input[type=submit]:hover {
     }
 }
 @media screen and (max-width: 414px) {
+    input[type=email] {
+        margin-left: 0;
+    }
+    
     .menu-wrap {
         right: 20%;
     }
