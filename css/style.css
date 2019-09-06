@@ -245,6 +245,7 @@ body {
     transition: color 0.4s ease;
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
+    color: black;
 }
 
 .bg2 {
