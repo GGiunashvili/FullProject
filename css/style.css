@@ -940,6 +940,13 @@ input[type=submit]:hover {
     }
 }
 @media screen and (max-width: 1024px) {
+     .icon-set {
+        display: none;
+    }
+    
+    .navbar {
+        display: none;
+    }
     .menu-wrap {
         display: block;
     }
