@@ -948,13 +948,6 @@ input[type=submit]:hover {
         flex-wrap: wrap;
     }
     
-    .icon-set {
-        display: none;
-    }
-    
-    .navbar {
-        display: none;
-    }
     
     .fa {
         font-size: 30px;
