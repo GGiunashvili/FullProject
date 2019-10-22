@@ -395,7 +395,7 @@ li:hover {
     margin: 0 auto;
     text-align: center;
     width: 180px;
-    margin-top: 45px;
+    margin-top: 10px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     border: 3px solid white;
