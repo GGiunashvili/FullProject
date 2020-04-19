@@ -69,10 +69,10 @@ header {
     display: flex;
     align-items: center;
     padding: 30px 0;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.end {
+.footer-name-surname {
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -138,7 +138,7 @@ body {
     display: none;
 }
 
-.img-box {
+.instagram-img-box {
     max-width: 280px;
     text-align: center;
 }
@@ -308,7 +308,6 @@ body {
 
 .logo {
     color: red;
-    margin-right: 40%;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     a {
@@ -362,13 +361,13 @@ section {
     transition: all 0.5s ease-in-out;
 }
 
-.THE {
+.footer-template-year {
     display: flex;
     justify-content: center;
 }
 
-.ma {
-    .ii {
+.activity-wrapper-div {
+    .activity-wrapper-number {
         &:hover {
             transform: scale(1.14);
             transition: all 0.2s ease-in-out;
@@ -376,8 +375,8 @@ section {
     }
 }
 
-.ma {
-    .la {
+.activity-wrapper-div {
+    .activity-wrapper-text {
         &:hover {
             transform: scale(1.14);
             transition: all 0.2s ease-in-out;
@@ -386,7 +385,7 @@ section {
         font-family: 'Montserrat',
         sans-serif;
     }
-    .ii {
+    .activity-wrapper-number {
         font-size: 60px;
     }
     margin: 53px;
@@ -398,7 +397,7 @@ section {
     }
 }
 
-.pic1 {
+.experience-image {
     &:hover {
         transform: scale(1.14);
         transition: all 0.2s ease-in-out;
@@ -432,7 +431,7 @@ li {
     margin-right: 20px;
 }
 
-.P1 {
+.main-title-one {
     color: white;
     margin-top: 40px;
     font-size: 50px;
@@ -444,7 +443,17 @@ li {
     }
 }
 
-.P2 {
+.main-title-box-one {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title-box-two {
+    display: flex;
+    justify-content: center;
+}
+
+.main-title-two {
     color: white;
     margin-top: 20px;
     font-size: 70px;
@@ -485,7 +494,7 @@ li {
     }
 }
 
-.p1-class {
+.story-telling-title-one {
     font-weight: bold;
     margin-top: 30px;
     color: black;
@@ -496,7 +505,7 @@ li {
     font-size: 25px;
 }
 
-.h2-class {
+.story-telling-title-two {
     font-weight: bold;
     margin-top: 30px;
     color: black;
@@ -507,7 +516,7 @@ li {
     font-size: 25px;
 }
 
-.p2-class {
+.story-telling-title-discription {
     color: #999999;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -524,17 +533,17 @@ li {
 
 .line3 {
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.maan {
+.work-experience-box {
     margin-top: 50px;
 }
 
-.con {
+.story-tellig-images {
     margin-top: 30px;
 }
 
@@ -543,7 +552,7 @@ li {
     justify-content: center;
 }
 
-.main {
+.activity-wrapper-box {
     background-color: #95E1D3;
     display: flex;
     justify-content: center;
@@ -553,11 +562,11 @@ li {
     justify-content: center;
 }
 
-.div2 {
+.story-telling-box {
     margin-top: 50px;
 }
 
-.cl2 {
+.work-experience-title-one {
     color: black;
     text-align: center;
     margin-bottom: 20px;
@@ -568,7 +577,7 @@ li {
     font-family: 'Amaranth', sans-serif;
 }
 
-.cl3 {
+.work-experience-title-two {
     color: black;
     text-align: center;
     font-size: 30px;
@@ -578,12 +587,12 @@ li {
     font-family: 'Amaranth', sans-serif;
 }
 
-.clock {
+.experience-individual-title {
     color: black;
     font-weight: bold;
 }
 
-.clock-p {
+.experience-individual-dicsription {
     color: black;
     font-family: 'Roboto', sans-serif;
     color: #999999;
@@ -591,20 +600,20 @@ li {
     max-width: 235px;
 }
 
-.nok {
+.second-experience-individual {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 20px;
 }
 
-.full {
+.experience-child-box {
     display: flex;
     justify-content: space-around;
     padding: 0 15px;
 }
 
-.div3 {
+.experience-individual-box {
     display: flex;
     align-items: center;
 }
@@ -629,14 +638,14 @@ li {
     padding: 0 15px;
 }
 
-.log {
+.footer-logo {
     color: #CCCCCC;
     font-size: 50px;
     margin-bottom: 40px;
     margin-top: 20px;
 }
 
-.fp {
+.footer-text-discription {
     color: #999999;
     font-size: 18px;
     margin-bottom: 40px;
@@ -665,11 +674,11 @@ li {
     padding: 0 15px;
 }
 
-.foot1 {
+.footer-section-one {
     float: left;
 }
 
-.foot2 {
+.footer-section-two {
     float: left;
 }
 
@@ -682,7 +691,7 @@ li {
 
 .blog {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Lobster Two', cursive;
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -690,30 +699,30 @@ li {
     margin-bottom: 15px;
 }
 
-.img-s8 {
+.blog-main-image {
     &:hover {
         transform: scale(1.14);
         transition: all 0.5s ease-in-out;
     }
 }
 
-.foto {
+.blog-photoes {
     display: flex;
     margin-bottom: 20px;
     justify-content: center;
 }
 
-.lorem {
+.blog-text-disctiption {
     color: black;
 }
 
-.jan {
+.blog-date {
     color: black;
 }
 
-.inst {
+.instagram-blog {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Lobster Two', cursive;
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -784,22 +793,22 @@ input[type=submit] {
     .footer {
         flex-wrap: wrap;
     }
-    .foot1,
-    .foot2,
-    .foot3 {
+    .footer-section-one,
+    .footer-section-two,
+    .footer-section-three {
         width: 100%;
     }
-    .foot3 {
+    .footer-section-three {
         width: auto;
     }
     .insimg {
         width: 100px;
         height: 100px;
     }
-    .img-box {
+    .instagram-img-box {
         max-width: 340px;
     }
-    .foot1 {
+    .footer-section-one {
         text-align: center;
     }
     .followus {
@@ -816,7 +825,7 @@ input[type=submit] {
     .blog {
         font-size: 30px;
     }
-    .inst {
+    .instagram-blog {
         font-size: 30px;
     }
 }
@@ -839,10 +848,10 @@ input[type=submit] {
     .logo {
         font-size: 30px;
     }
-    .main {
+    .activity-wrapper-box {
         flex-wrap: wrap;
     }
-    .full {
+    .experience-child-box {
         display: flex;
         flex-wrap: wrap;
         display: flex;
@@ -857,13 +866,13 @@ input[type=submit] {
     .con-img {
         margin: 20px;
     }
-    .foot2 {
+    .footer-section-two {
         margin-top: 20px;
     }
-    .foot3 {
+    .footer-section-three {
         margin-top: 50px;
     }
-    .div3 {
+    .experience-individual-box {
         margin-bottom: 30px;
     }
     .div4 {
@@ -900,7 +909,7 @@ input[type=submit] {
         margin-top: 30px;
         text-align: center;
     }
-    .inst {
+    .instagram-blog {
         text-align: center;
         margin-bottom: 15px;
     }
@@ -908,7 +917,7 @@ input[type=submit] {
         text-align: center;
         margin-bottom: 20px;
     }
-    .pic1 {
+    .experience-image {
         height: 100px;
     }
     input {
@@ -932,10 +941,10 @@ input[type=submit] {
     // .clock-p {
     //     width: 200px;
     // }
-    .clock {
+    .experience-individual-title {
         margin-bottom: 15px;
     }
-    .foot1 {
+    .footer-section-one {
         margin-right: 0;
     }
     .email {
@@ -945,7 +954,7 @@ input[type=submit] {
             padding: 0 5%;
         }
     }
-    .p2-class {
+    .story-telling-title-discription {
         padding: 0 5%;
     }
 }
@@ -960,7 +969,7 @@ input[type=submit] {
     .menu-wrap {
         display: block;
     }
-    .foot3 {
+    .footer-section-three {
         flex-wrap: wrap;
     }
     .fa {
@@ -973,14 +982,11 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 414px) {
-    .foot2 {
+    .footer-section-two {
         margin: 4%;
     }
-    .foot3 {
+    .footer-section-three {
         margin: 4%;
-    }
-    .logo {
-        margin-right: 60%;
     }
     input[type=email] {
         margin-left: 0;
@@ -1009,7 +1015,7 @@ input[type=submit] {
     header {
         display: inline-block;
     }
-    .full {
+    .experience-child-box {
         display: flex;
         flex-wrap: wrap;
     }
@@ -1028,23 +1034,23 @@ input[type=submit] {
     .div8 {
         margin-left: 46px;
     }
-    .P2 {
+    .main-title-two {
         font-size: 50px;
     }
-    .P1 {
+    .main-title-one {
         font-size: 30px;
     }
-    .foot3 {
+    .footer-section-three {
         margin-right: 0;
     }
-    .pic1 {
+    .experience-image {
         height: 75px;
         margin-right: 20px;
     }
     .fa {
         color: white;
     }
-    .foot2 {
+    .footer-section-two {
         margin-right: 0;
     }
 }
