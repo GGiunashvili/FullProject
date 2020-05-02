@@ -340,6 +340,67 @@ body {
   color: black;
 }
 
+.free-devices-background {
+  background-image: url("../image/unique-design/bg-unique-design.jpg");
+  height: 650px;
+  width: 100%;
+  margin: 100px 0;
+  position: relative;
+}
+
+.free-devices-background .free-devices-main-div {
+  text-align: center;
+}
+
+.free-devices-background .free-devices-main-div .free-devices-title-1 {
+  padding-top: 20px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+}
+
+.free-devices-background .free-devices-main-div .free-devices-title-2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+}
+
+.free-devices-background .ipad-img {
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  max-width: 430px;
+}
+
+.free-devices-background .iphone-img {
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  max-width: 100px;
+  -webkit-transform: translate(60%, 0%);
+          transform: translate(60%, 0%);
+  max-width: 200px;
+  bottom: -75px;
+}
+
+.service-main-box {
+  text-align: center;
+}
+
+.service-main-box .service-titile-one {
+  font-size: 24px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.service-main-box .service-title-two {
+  font-size: 30px;
+}
+
+.service-main-box .service-discription {
+  font-size: 15px;
+  color: #999999;
+}
+
 .bg2 {
   background-image: url("../image/full.jpg");
   height: 100vh;
@@ -429,7 +490,7 @@ section:before {
 }
 
 .activity-wrapper-div {
-  margin: 53px;
+  margin: 45px;
 }
 
 .activity-wrapper-div .activity-wrapper-text {
@@ -966,6 +1027,12 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .iphone-img {
+    width: 30% !important;
+  }
+  .ipad-img {
+    width: 100%;
+  }
   .email form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1134,6 +1201,12 @@ input[type=submit]:hover {
   }
 }
 
+@media screen and (max-width: 430px) {
+  .free-devices-background {
+    height: 645px;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .footer-section-two {
     margin: 4%;
@@ -1146,6 +1219,12 @@ input[type=submit]:hover {
   }
   .menu-wrap {
     margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .free-devices-background {
+    height: 600px;
   }
 }
 
@@ -1208,6 +1287,12 @@ input[type=submit]:hover {
   }
   .footer-section-two {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .free-devices-background {
+    height: 520px;
   }
 }
 
