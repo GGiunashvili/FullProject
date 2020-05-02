@@ -1205,6 +1205,9 @@ input[type=submit]:hover {
   .free-devices-background {
     height: 645px;
   }
+  .activity-wrapper-div {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 414px) {
